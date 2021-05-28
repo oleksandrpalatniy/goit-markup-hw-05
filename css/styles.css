@@ -728,5 +728,14 @@ footer .social-list-link {
   cursor: pointer;
   padding: 0;
 }
+.close-btn {
+  width: 30px;
+  height: 30px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-btn:hover {
+  fill: var(--accent-color);
+}
 
 /* END modal window */
